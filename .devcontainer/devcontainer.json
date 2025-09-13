@@ -5,7 +5,7 @@
 	    "settings": {
 		"github.copilot.enable": false,
 		"github.copilot.inlineSuggest.enable": false,
-		"github.copilot.editor.enableAutoCompletions": false
+		"github.copilot.editor.enableAutoCompletions": false,
 		"extensions.allowed": {
 		    "ms-python.vscode-pylance": true,
 		    "ms-python.python": true,
@@ -20,5 +20,6 @@
 		"ms-python.vscode-python-envs"
 	    ]
 	}
-    }
+    },
+	"postCreateCommand": "pip install pytest"
 }
