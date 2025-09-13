@@ -45,7 +45,7 @@
 
     "chat.emptyState.history.enabled": false,
 
-    "inlineChat.lineNaturalLanguageHint": false
+    "inlineChat.lineNaturalLanguageHint": false,
 
     "extensions.allowed": {
      "ms-python.vscode-pylance": true,
