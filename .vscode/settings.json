@@ -4,23 +4,6 @@
 
     "editor.inlineSuggest.enabled": false,
     
-    // Disable GitHub Copilot's core functionality
-    "github.copilot.enabled": false,
-
-    // Disable Copilot's next edit suggestions
-    "github.copilot.nextEditSuggestions.enabled": false,
-
-    // Disable Copilot Chat's inline chat hint
-    "github.copilot.chat.inlineChatHint.enabled": false,
-
-    // Disable Copilot's code completion suggestions
-    "github.copilot.advanced.inlineSuggest.enabled": false,
-
-    // Set telemetry level to off to prevent sending usage data
-    "telemetry.telemetryLevel": "off",
-
-    "github.copilot.editor.enableAutoCompletions": false,
-
     "python.analysis.addHoverSummaries": false,
 
     "python.analysis.aiCodeActions": {
@@ -47,12 +30,6 @@
 
     "inlineChat.lineNaturalLanguageHint": false,
 
-    "extensions.allowed": {
-     "ms-python.vscode-pylance": true,
-     "ms-python.python": true,
-     "ms-python.debugpy": true,
-     "ms-python.vscode-python-envs": true
- }
 
 }
 
