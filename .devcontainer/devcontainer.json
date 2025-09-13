@@ -15,5 +15,5 @@
       ]
     }
   },
-  "postCreateCommand": "mkdir -p $HOME/.vscode-server/data/Machine && echo '{ \"extensions.allowed\": [\"ms-python.vscode-pylance\", \"ms-python.python\", \"ms-python.debugpy\", \"ms-python.vscode-python-envs\"] }' > $HOME/.vscode-server/data/Machine/settings.json && pip install pytest"
+  "postCreateCommand": "pip install pytest"
 }
