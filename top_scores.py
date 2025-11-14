@@ -34,6 +34,9 @@ class TopScores:
         return self._data[index].score
     
 
-
+if __name__ == "__main__":
+    top_scores = TopScores()
+    the_len = len(top_scores)
+    print(the_len)
 
 
