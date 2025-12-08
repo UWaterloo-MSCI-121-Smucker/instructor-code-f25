@@ -29,6 +29,8 @@
     "chat.emptyState.history.enabled": false,
 
     "inlineChat.lineNaturalLanguageHint": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
 
 
 }
